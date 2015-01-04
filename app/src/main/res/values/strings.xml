@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleBannerAbMob</string>
+    <string name="hello_world">Demostracion integracion AdMob</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_demo1">demo1</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-3612121967698049/4158486548</string>
+
+</resources>

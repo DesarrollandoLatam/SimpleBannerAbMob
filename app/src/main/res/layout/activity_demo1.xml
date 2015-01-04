@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".demo1"
+    tools:ignore="MergeRootFrame">
+
+    <fragment
+        android:id="@+id/myFragment"
+        android:name="com.nickbortolotti.simplebannerabmob.demo1$PlaceholderFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adFragment"
+        tools:layout="@layout/fragment_ad" />
+
+    <fragment
+        android:id="@+id/adFragment"
+        android:name="com.nickbortolotti.simplebannerabmob.demo1$AdFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        tools:layout="@layout/fragment_my" />
+</RelativeLayout>
